@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#0169b2">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Alumni | EducaciónIT</title>
+
+    <link rel="stylesheet" href="/css/jRating.jquery.css">
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300|Source+Sans+Pro:400,600,700,900,300,200' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/jquery.min.js"><\/script>')</script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+        /*** Handle jQuery plugin naming conflict between jQuery UI and Bootstrap ***/
+        $.widget.bridge('uibutton', $.ui.button);
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+        $( document ).uitooltip({
+            content: function() {
+                return $(this).attr('title');
+            }
+        });
+    </script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/js/jRating.jquery.js"></script>
+    <script src="/assets/js/main.js"></script>
+</head>
+
+<body id="home-page">
+
+<link href="/css/menu.css" rel="stylesheet">
+<script src="/js/menu.js"></script>
+
+ <header>
+        <div class="container">
+            <div class="row">
+                <a href="/" target="_blank" class="brand"><img src="/assets/img/svg/educacionIT-logo.svg" alt="Logo educaciónIT"></a>
+                <a href="/" class="alumni-logo" >
+                    <img src="/assets/img/svg/alumni-logo.svg" alt="Logo Alumni">
+                </a>
+                
+                                </div>
+        </div>
+</header>
+        <nav class="navbar-default">
+    <div class="container">
+
+    <script>
+        $(document).ready(function () {
+            $(".alertDisabled").click(function () {
+                alert("Esta seccion no esta habilitada actualmente.");
+            });
+
+            $(".alertClases").click(function () {
+                alert("No tienes clases grabadas activas.");
+            });
+        });
+    </script>
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header"><!-- pull-left -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-collapse" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-collapse"><ul class="nav-bar">
+                <li><a href="/accounts/dashboard/" id="btn-cursos"><span>Mis </span>Cursos</a></li>
+                <li><a href="/course/pendientes/" id="btn-pendientes">Inscripci&oacute;n a cursos</a></li><li class="desktop-view"><a href="/coursecalendar/invite/" id="btn-webx">Webex</a></li><!-- habilitado si el alumno lo esta -->
+                <li><a href="/book/ayuda/" id="btn-ayuda">Ayuda</a></li>
+                <li><a href="/book/contacto/" id="btn-contacto">Contacto</a></li>
+                <li><a href="/benefit" id="btn-beneficios">Beneficios</a></li>
+                <li id="btn-user-mobile" class="mobile-view">
+            <ul>
+                <li><a href="/accounts/profile">Mi Perfil</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/user/logout">Salir</a></li>
+            </ul>
+        </li><a target="_blank" href="/@Gabriela Alejandra.Gallardo.175286.1"><span class="user-name">Gabriela Alejandra Gallardo</span></a>
+<div class="dropdown-container">
+    <li id="btn-user" class="desktop-view">
+        <div type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </div>
+        <ul class="dropdown-menu">
+            <div class="dropdown-category" >Cuenta y configuracion</div>
+            <li><a href="/accounts/profile">Mi Perfil</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/user/logout">Salir</a></li>
+        </ul>
+    </li>
+</div><div class="dropdown-container">
+    <li id="btn-roles" class="desktop-view">
+        <div type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="icon-rol-avatar" aria-hidden="true"></span></div>
+        <ul class="dropdown-menu">
+            <a class="dropdown-category" href="/accounts/roles" >Roles (7)</a><li><a href="/accounts/roles/id/20" class="rol-link">
+                            <span class="rol-name">JAVA DEVELOPER ENGI...</span><span class="rol-progreso">Progreso</span><div class="rol-txt" id="hovercareer">
+                        <div class="alumno_points" id="stars" data-id="2" style="height: 20px; width: 115px; overflow: hidden; z-index: 1; position: relative;float:left; background-color: #ffffff;">
+                            <div class="jRatingColor" style="width: 25px" ></div>
+                            <div class="jRatingAverage" style="width: 0px; top: -20px;"></div>
+                            <div class="jStar" style="width: 115px; height: 20px; top: -40px; background-image: url(http://alumni.educacionit.com/images/stars/stars.png); background-position: initial initial; background-repeat: repeat no-repeat;"></div>
+                        </div><span style="float: right">22%</span></div></a></li><li><a href="/accounts/roles/id/13" class="rol-link">
+                            <span class="rol-name">Front-End Web Devel...</span><span class="rol-progreso">Progreso</span><div class="rol-txt" id="hovercareer">
+                        <div class="alumno_points" id="stars" data-id="2" style="height: 20px; width: 115px; overflow: hidden; z-index: 1; position: relative;float:left; background-color: #ffffff;">
+                            <div class="jRatingColor" style="width: 107px" ></div>
+                            <div class="jRatingAverage" style="width: 0px; top: -20px;"></div>
+                            <div class="jStar" style="width: 115px; height: 20px; top: -40px; background-image: url(http://alumni.educacionit.com/images/stars/stars.png); background-position: initial initial; background-repeat: repeat no-repeat;"></div>
+                        </div><span style="float: right">93%</span></div></a></li><li><a href="/accounts/roles/id/26" class="rol-link">
+                            <span class="rol-name">Web Designer</span><span class="rol-progreso">Progreso</span><div class="rol-txt" id="hovercareer">
+                        <div class="alumno_points" id="stars" data-id="2" style="height: 20px; width: 115px; overflow: hidden; z-index: 1; position: relative;float:left; background-color: #ffffff;">
+                            <div class="jRatingColor" style="width: 115px" ></div>
+                            <div class="jRatingAverage" style="width: 0px; top: -20px;"></div>
+                            <div class="jStar" style="width: 115px; height: 20px; top: -40px; background-image: url(http://alumni.educacionit.com/images/stars/stars.png); background-position: initial initial; background-repeat: repeat no-repeat;"></div>
+                        </div><span style="float: right">100%</span></div></a></li><li><a href="/accounts/roles/id/25" class="rol-link">
+                            <span class="rol-name">UI Developer</span><span class="rol-progreso">Progreso</span><div class="rol-txt" id="hovercareer">
+                        <div class="alumno_points" id="stars" data-id="2" style="height: 20px; width: 115px; overflow: hidden; z-index: 1; position: relative;float:left; background-color: #ffffff;">
+                            <div class="jRatingColor" style="width: 58px" ></div>
+                            <div class="jRatingAverage" style="width: 0px; top: -20px;"></div>
+                            <div class="jStar" style="width: 115px; height: 20px; top: -40px; background-image: url(http://alumni.educacionit.com/images/stars/stars.png); background-position: initial initial; background-repeat: repeat no-repeat;"></div>
+                        </div><span style="float: right">50%</span></div></a></li><li><a href="/accounts/roles/id/27" class="rol-link">
+                            <span class="rol-name">UI/UX WEB DESIGNER</span><span class="rol-progreso">Progreso</span><div class="rol-txt" id="hovercareer">
+                        <div class="alumno_points" id="stars" data-id="2" style="height: 20px; width: 115px; overflow: hidden; z-index: 1; position: relative;float:left; background-color: #ffffff;">
+                            <div class="jRatingColor" style="width: 41px" ></div>
+                            <div class="jRatingAverage" style="width: 0px; top: -20px;"></div>
+                            <div class="jStar" style="width: 115px; height: 20px; top: -40px; background-image: url(http://alumni.educacionit.com/images/stars/stars.png); background-position: initial initial; background-repeat: repeat no-repeat;"></div>
+                        </div><span style="float: right">36%</span></div></a></li><li><a href="/accounts/roles/id/14" class="rol-link">
+                            <span class="rol-name">Javascript Developer</span><span class="rol-progreso">Progreso</span><div class="rol-txt" id="hovercareer">
+                        <div class="alumno_points" id="stars" data-id="2" style="height: 20px; width: 115px; overflow: hidden; z-index: 1; position: relative;float:left; background-color: #ffffff;">
+                            <div class="jRatingColor" style="width: 86px" ></div>
+                            <div class="jRatingAverage" style="width: 0px; top: -20px;"></div>
+                            <div class="jStar" style="width: 115px; height: 20px; top: -40px; background-image: url(http://alumni.educacionit.com/images/stars/stars.png); background-position: initial initial; background-repeat: repeat no-repeat;"></div>
+                        </div><span style="float: right">75%</span></div></a></li><li><a href="/accounts/roles/id/16" class="rol-link">
+                            <span class="rol-name">Javascript Ninja De...</span><span class="rol-progreso">Progreso</span><div class="rol-txt" id="hovercareer">
+                        <div class="alumno_points" id="stars" data-id="2" style="height: 20px; width: 115px; overflow: hidden; z-index: 1; position: relative;float:left; background-color: #ffffff;">
+                            <div class="jRatingColor" style="width: 43px" ></div>
+                            <div class="jRatingAverage" style="width: 0px; top: -20px;"></div>
+                            <div class="jStar" style="width: 115px; height: 20px; top: -40px; background-image: url(http://alumni.educacionit.com/images/stars/stars.png); background-position: initial initial; background-repeat: repeat no-repeat;"></div>
+                        </div><span style="float: right">37%</span></div></a></li></ul>
+    </li>
+</div><div class="dropdown-container">
+    <li id="btn-mensaje" class="desktop-view">
+        <div type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="icon-chat" aria-hidden="true"></span></div>
+        <ul class="dropdown-menu">
+            <a class="dropdown-category" href="/user/mensajes" >Mensajes <span class="mensaje-count-int">(4)</span></a>
+            <li><a href="/user/mensajes/id/40044" id="header-msj-40044" class="mensaje-link">
+                    <span class="mensaje-author">Alumni</span>
+                    <span class="mensaje-date">02 Sep</span>
+                    <span class="mensaje-txt">Certificate en Javascript Desarrollador Front-End</span>
+                </a><a href="/user/mensajes/id/36371" id="header-msj-36371" class="mensaje-link">
+                    <span class="mensaje-author">Alumni</span>
+                    <span class="mensaje-date">19 Ago</span>
+                    <span class="mensaje-txt">Diploma online generado</span>
+                </a><a href="/user/mensajes/id/30504" id="header-msj-30504" class="mensaje-link">
+                    <span class="mensaje-author">Alumni</span>
+                    <span class="mensaje-date">22 Jul</span>
+                    <span class="mensaje-txt">Diploma online generado</span>
+                </a><a href="/user/mensajes/id/26491" id="header-msj-26491" class="mensaje-link">
+                    <span class="mensaje-author">Alumni</span>
+                    <span class="mensaje-date">10 Jul</span>
+                    <span class="mensaje-txt">Certificate en HTML 5 y CSS 3</span>
+                </a></li>
+        </ul>
+    </li>
+</div>    </div>
+    </nav>
+<style>
+.container-live .panel{border-color:#ff3333;}
+.container-live .panel-heading{background:#ff3333;border-color:#ff3333;}
+.container-live .table{margin-bottom: 0;}
+.container-live .table tbody tr td{line-height: 35px;padding:2px;}
+.container-live .table tbody tr td a{display:block;width:65%;margin:0 auto;}
+.container-live .table tbody tr td a span{padding:0 15px;}
+.container-live .table tbody tr td a img{width:35px;}
+</style>
+<div class="cursos-y-recomendados">
+
+    
+    <div class="container-cursos">
+        <div class="container">
+            <h1 class="title-cursos">Cursos actuales y finalizados</h1>
+            <div class="row cursos">
+                <!--encabezado cursos-->
+                <div class="row cursos-heading">
+                    <div class="link-curso-h"">Curso</div>
+                    <div class="porcentaje-h">Progreso</div>
+                    <div class="link-novedades-h">Novedades</div>
+                    <div class="estado-h">Estado</div>
+                    <div class="foro-h">Clase</div>
+                    <div class="link-calidad-h">Encuesta Calidad</div>
+                    <div class="link-diploma-h">Diploma</div>
+                    <div class="link-certificado-h">Certificado</div>
+                </div>
+                <!--cursos-->
+
+                		
+                        <div class="curso certificado"><!--la clase le da el color al estado-->
+
+                            <a href="/clases/indice/id/519" class="link-curso">Angular JS</a>
+                            <div class="porcentaje ">
+                                <div class="porcentaje-barra">
+                                    <div class="progreso" style="width:100%;"></div>
+                                </div><!--cambiar width de progreso-->
+                                <span class="porcentaje-progreso" style="color: white;">100%</span><!--cambiar numero segun el width de progreso-->
+                            </div>
+                            <a href="#/" class="icon-novedades"><div>5</div></a>
+                            <div class="estado"><span>Certificado</span></div>
+                            <div class="foro">
+                                                                                                        <a href="/coursecalendar/muro/id/519/">
+                                        <img class="icon-community" src="/images/foro-clase.png" />
+                                    </a>
+                                                                                                </div>
+                                                        <a href="javascript:void(0);"  class="link-calidad link-disabled" title="Ya completaste la encuesta">
+                                <span class="icon-calidad"></span>
+                            </a>
+                                                        <a href="/user/diploma/course/PW19/" class="link-diploma " title="Diploma">
+                                <span class="icon-diploma"></span>
+                            </a>
+                                                        <a href="/course/integrador/id/519" class="link-certificado dorado" title="Ver Certificado">
+                                <span class="icon-copyright"></span>
+                            </a>
+                            
+                        </div>                                        <div class="curso certificado"><!--la clase le da el color al estado-->
+
+                            <a href="/clases/indice/id/268" class="link-curso">Maquetado Avanzado: HTML5 y CSS3</a>
+                            <div class="porcentaje ">
+                                <div class="porcentaje-barra">
+                                    <div class="progreso" style="width:100%;"></div>
+                                </div><!--cambiar width de progreso-->
+                                <span class="porcentaje-progreso" style="color: white;">100%</span><!--cambiar numero segun el width de progreso-->
+                            </div>
+                            <a href="#/" class="icon-novedades"><div>5</div></a>
+                            <div class="estado"><span>Certificado</span></div>
+                            <div class="foro">
+                                                                                                        <a href="/coursecalendar/muro/id/268/">
+                                        <img class="icon-community" src="/images/foro-clase.png" />
+                                    </a>
+                                                                                                </div>
+                                                        <a href="javascript:void(0);"  class="link-calidad link-disabled" title="Ya completaste la encuesta">
+                                <span class="icon-calidad"></span>
+                            </a>
+                                                        <a href="/user/diploma/course/DW14/" class="link-diploma " title="Diploma">
+                                <span class="icon-diploma"></span>
+                            </a>
+                                                        <a href="/course/integrador/id/268" class="link-certificado dorado" title="Ver Certificado">
+                                <span class="icon-copyright"></span>
+                            </a>
+                            
+                        </div>                                        <div class="curso certificado"><!--la clase le da el color al estado-->
+
+                            <a href="/clases/indice/id/260" class="link-curso">HTML5: Fundamentos de una pagina Web</a>
+                            <div class="porcentaje ">
+                                <div class="porcentaje-barra">
+                                    <div class="progreso" style="width:100%;"></div>
+                                </div><!--cambiar width de progreso-->
+                                <span class="porcentaje-progreso" style="color: white;">100%</span><!--cambiar numero segun el width de progreso-->
+                            </div>
+                            <a href="#/" class="icon-novedades"><div>5</div></a>
+                            <div class="estado"><span>Certificado</span></div>
+                            <div class="foro">
+                                                                                                        <a href="/coursecalendar/muro/id/260/">
+                                        <img class="icon-community" src="/images/foro-clase.png" />
+                                    </a>
+                                                                                                </div>
+                                                        <a href="javascript:void(0);"  class="link-calidad link-disabled" title="Ya completaste la encuesta">
+                                <span class="icon-calidad"></span>
+                            </a>
+                                                        <a href="/user/diploma/course/DW06/" class="link-diploma " title="Diploma">
+                                <span class="icon-diploma"></span>
+                            </a>
+                                                        <a href="/course/integrador/id/260" class="link-certificado dorado" title="Ver Certificado">
+                                <span class="icon-copyright"></span>
+                            </a>
+                            
+                        </div>                                        <div class="curso aprobado-sin-cert"><!--la clase le da el color al estado-->
+
+                            <a href="/clases/indice/id/543" class="link-curso">Javascript Desarrollador Avanzado Front-End</a>
+                            <div class="porcentaje ">
+                                <div class="porcentaje-barra">
+                                    <div class="progreso" style="width:91%;"></div>
+                                </div><!--cambiar width de progreso-->
+                                <span class="porcentaje-progreso" style="color: white;">91%</span><!--cambiar numero segun el width de progreso-->
+                            </div>
+                            <a href="#/" class="icon-novedades"><div>5</div></a>
+                            <div class="estado"><span>Aprobado<br/><span style="color: #717171; font-size: 0.9em;">(Falta Certificaci&oacute;n)</span></span></div>
+                            <div class="foro">
+                                                                                                        <a href="/coursecalendar/muro/id/543/">
+                                        <img class="icon-community" src="/images/foro-clase.png" />
+                                    </a>
+                                                                                                </div>
+                                                        <a href="javascript:void(0);"  class="link-calidad link-disabled" title="Ya completaste la encuesta">
+                                <span class="icon-calidad"></span>
+                            </a>
+                                                        <a href="/user/diploma/course/PW21/" class="link-diploma " title="Diploma">
+                                <span class="icon-diploma"></span>
+                            </a>
+                                                        <a href="/course/integrador/id/543" class="link-certificado " title="Obtener Certificado">
+                                <span class="icon-copyright"></span>
+                            </a>
+                            
+                        </div>                                        <div class="curso certificado"><!--la clase le da el color al estado-->
+
+                            <a href="/clases/indice/id/263" class="link-curso">Introducci&oacute;n a la programacion en Javascript</a>
+                            <div class="porcentaje ">
+                                <div class="porcentaje-barra">
+                                    <div class="progreso" style="width:100%;"></div>
+                                </div><!--cambiar width de progreso-->
+                                <span class="porcentaje-progreso" style="color: white;">100%</span><!--cambiar numero segun el width de progreso-->
+                            </div>
+                            <a href="#/" class="icon-novedades"><div>5</div></a>
+                            <div class="estado"><span>Certificado</span></div>
+                            <div class="foro">
+                                                                                                        <a href="/coursecalendar/muro/id/263/">
+                                        <img class="icon-community" src="/images/foro-clase.png" />
+                                    </a>
+                                                                                                </div>
+                                                        <a href="javascript:void(0);"  class="link-calidad link-disabled" title="Ya completaste la encuesta">
+                                <span class="icon-calidad"></span>
+                            </a>
+                                                        <a href="/user/diploma/course/DW09/" class="link-diploma " title="Diploma">
+                                <span class="icon-diploma"></span>
+                            </a>
+                                                        <a href="/course/integrador/id/263" class="link-certificado dorado" title="Ver Certificado">
+                                <span class="icon-copyright"></span>
+                            </a>
+                            
+                        </div>                                        <div class="curso certificado"><!--la clase le da el color al estado-->
+
+                            <a href="/clases/indice/id/261" class="link-curso">Maquetaci&oacute;n Web: HTML 5 y CSS</a>
+                            <div class="porcentaje ">
+                                <div class="porcentaje-barra">
+                                    <div class="progreso" style="width:100%;"></div>
+                                </div><!--cambiar width de progreso-->
+                                <span class="porcentaje-progreso" style="color: white;">100%</span><!--cambiar numero segun el width de progreso-->
+                            </div>
+                            <a href="#/" class="icon-novedades"><div>5</div></a>
+                            <div class="estado"><span>Certificado</span></div>
+                            <div class="foro">
+                                                                                                        <a href="/coursecalendar/muro/id/261/">
+                                        <img class="icon-community" src="/images/foro-clase.png" />
+                                    </a>
+                                                                                                </div>
+                                                        <a href="javascript:void(0);"  class="link-calidad link-disabled" title="Ya completaste la encuesta">
+                                <span class="icon-calidad"></span>
+                            </a>
+                                                        <a href="/user/diploma/course/DW07/" class="link-diploma " title="Diploma">
+                                <span class="icon-diploma"></span>
+                            </a>
+                                                        <a href="/course/integrador/id/261" class="link-certificado dorado" title="Ver Certificado">
+                                <span class="icon-copyright"></span>
+                            </a>
+                            
+                        </div>                
+            </div><!-- end cursos -->
+
+        </div><!-- end container -->
+    </div><!-- end container-cursos -->
+
+    <div class="container-cursos-recomendados">
+        <div class="container">
+            <div class="recomendados-heading">
+                <h3>Cursos recomendados para ti</h3>
+            </div>
+            <div class="row cursos">
+                                    <a href="/course/pendientes/course_id/520/">
+                        <div class="recomendado-block">
+                                                        <img src="http://www.educacionit.com/images/cursos/r/curso-de-responsive-design.jpg" alt=""/>
+
+                            <div class="recomendado-txt">
+                                <h4>Responsive Web Design & Bootstrap</h4>
+
+                                <div class="recomendado-hs">12hs</div>
+                                <div class="recomendado-btn"><span class="icon-right-arrow"></span>Inscribirme</div>
+                            </div>
+                        </div>
+                    </a><!--end col-->
+                                    <a href="/course/pendientes/course_id/522/">
+                        <div class="recomendado-block">
+                                                        <img src="http://www.educacionit.com/images/cursos/r/curso-de-nodejs-y-mongodb.jpg" alt=""/>
+
+                            <div class="recomendado-txt">
+                                <h4>Node.js y Mongo DB</h4>
+
+                                <div class="recomendado-hs">54hs</div>
+                                <div class="recomendado-btn"><span class="icon-right-arrow"></span>Inscribirme</div>
+                            </div>
+                        </div>
+                    </a><!--end col-->
+                                    <a href="/course/pendientes/course_id/563/">
+                        <div class="recomendado-block">
+                                                        <img src="http://www.educacionit.com/images/cursos/r/curso-de-nodejs-arquitectura.jpg" alt=""/>
+
+                            <div class="recomendado-txt">
+                                <h4>Arquitectura avanzada en Node js</h4>
+
+                                <div class="recomendado-hs">18hs</div>
+                                <div class="recomendado-btn"><span class="icon-right-arrow"></span>Inscribirme</div>
+                            </div>
+                        </div>
+                    </a><!--end col-->
+                                    <a href="/course/pendientes/course_id/564/">
+                        <div class="recomendado-block">
+                                                        <img src="http://www.educacionit.com/images/cursos/r/curso-de-mongodb.jpg" alt=""/>
+
+                            <div class="recomendado-txt">
+                                <h4>Mongo DB Avanzado</h4>
+
+                                <div class="recomendado-hs">12hs</div>
+                                <div class="recomendado-btn"><span class="icon-right-arrow"></span>Inscribirme</div>
+                            </div>
+                        </div>
+                    </a><!--end col-->
+                                    <a href="/course/pendientes/course_id/579/">
+                        <div class="recomendado-block">
+                                                        <img src="http://www.educacionit.com/images/cursos/r/curso-de-reactjs.jpg" alt=""/>
+
+                            <div class="recomendado-txt">
+                                <h4>ReactJS</h4>
+
+                                <div class="recomendado-hs">15hs</div>
+                                <div class="recomendado-btn"><span class="icon-right-arrow"></span>Inscribirme</div>
+                            </div>
+                        </div>
+                    </a><!--end col-->
+                                    <a href="/course/pendientes/course_id/580/">
+                        <div class="recomendado-block">
+                                                        <img src="http://www.educacionit.com/images/cursos/r/curso-de-mongodb-fundamentos.jpg" alt=""/>
+
+                            <div class="recomendado-txt">
+                                <h4>Mongo DB Fundamentos</h4>
+
+                                <div class="recomendado-hs">6hs</div>
+                                <div class="recomendado-btn"><span class="icon-right-arrow"></span>Inscribirme</div>
+                            </div>
+                        </div>
+                    </a><!--end col-->
+                            </div><!--end cursos-->
+        </div>
+    </div>
+</div><!-- end cursos-y-recomendados --> <footer class="site-footer">
+            
+        <div class="footer-tecnologias"><img src="/assets/img/footer-tecnologias.png" alt="tecnologías en educaciónIT"></div>
+        <div class="footer-social-container">
+            <a href="#btn-cursos" class="arrow-up glyphicon glyphicon-chevron-up"></a>
+            <div class="footer-social">
+
+                <a href="http://www.facebook.com/EducacionIT" target="_blank" class="icon-logo-facebook"></a>
+                <a href="http://www.twitter.com/educacionit" target="_blank" class="icon-logo-twitter"></a>
+                <a href="http://www.linkedin.com/company/educacionit?trk=biz-companies-cym" target="_blank" class="icon-logo-linkedin"></a>
+                <a href="http://www.youtube.com/educacionit" target="_blank" class="icon-logo-youtube"></a>
+                <a href="https://plus.google.com/+Educaci%C3%B3nITBuenosAires/posts" target="_blank" class="icon-logo-google"></a>
+            </div>
+        </div>
+        <div class="copyright">EducaciónIT. Copyright 2005-2017</div>
+</footer>
+
+
+<script>window.setTimeout( introLoad, 1000 );</script>
+<script>$( document ).ready(function() {
+        $('.intro-loading').remove();
+    });
+    popInformacionCurso();loadFormCommunity();
+</script>
+</body>
+
+</html>
